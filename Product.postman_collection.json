@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "d1ae9b61-d4a8-41f0-a0e3-ebbd030afb2d",
+		"name": "Product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25390888"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/v1/interestrates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/interestrates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"interestrates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/interestrates",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1212\",\r\n    \"name\": \"Interes Nuevo\",\r\n    \"interestRate\": \"12,12\",\r\n    \"state\": \"ACT\",\r\n    \"start\": \"01-09-2023\",\r\n    \"end\": \"31-09-2023\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/interestrates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"interestrates"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
